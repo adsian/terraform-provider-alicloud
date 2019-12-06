@@ -15,6 +15,9 @@ import (
 	"github.com/terraform-providers/terraform-provider-alicloud/alicloud/connectivity"
 )
 
+////
+//////
+
 func init() {
 	resource.AddTestSweepers("alicloud_slb", &resource.Sweeper{
 		Name: "alicloud_slb",
